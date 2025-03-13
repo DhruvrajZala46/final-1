@@ -1,4 +1,4 @@
-from langchain_huggingface import HuggingFaceEmbeddings
+from langchain.embeddings.huggingface import HuggingFaceEmbeddings
 import faiss
 import numpy as np
 import os
